@@ -20,7 +20,7 @@ btn.forEach(button => button.addEventListener("click", () => {
     computerTurn();
 
 }));
-function computerTurnp() {
+function computerTurn() {
     const randNum = Math.floor(Math.random() * 5) + 1;
 
     switch (randNum) {
